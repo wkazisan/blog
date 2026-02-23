@@ -20,7 +20,10 @@ layout: default
                 col-md-10 col-md-offset-1
                 post-container">
 
-                
+                <!-- Multi-Lingual -->
+                {% if page.multilingual %}
+                    {% include multilingual-sel.html %}
+                {% endif %}
 
 				{{ content }}
 
@@ -53,7 +56,11 @@ layout: default
                 <!-- disqus 评论框 end -->
                 {% endif %}
 
-                
+                {% if site.netease_comment %}
+                <!-- 网易云跟帖 评论框 start -->
+                <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+                <!-- 网易云跟帖 评论框 end -->
+                {% endif %}
             </div>  
 
     <!-- Side Catalog Container -->
