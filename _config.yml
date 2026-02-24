@@ -49,8 +49,8 @@ kramdown:
 disqus_username: wkazisan
 
 # Analytics
-ga_track_id:
-ga_domain:
+ga_track_id: G-W3GJ2X2EGB
+ga_domain: https://wka-blog.netlify.app
 
 # Sidebar settings
 sidebar: true
